@@ -10,7 +10,7 @@ $questions = [
 
 if (isset($_GET['msg'])) {
     $msg = strtolower($_GET['msg']);
-    $bot->hears($msg, function (Bot $botty)) {
+    $bot->hears($msg, function (Bot $botty){
         global $msg;
         global $questions;
         if ($msg == 'hi' || $msg == "hello") {
@@ -18,7 +18,7 @@ if (isset($_GET['msg'])) {
         } elseif ($botty->ask($msg, $questions) == "") {
             $botty->reply("Can't respond to that");
         } else {
-            $botty->reply($botty->ask($msg, $questions))
+            $botty->reply($botty->ask($msg, $questions));
         }
     });
 }
