@@ -16,6 +16,8 @@
             <li>What is your gender</li>
             <li>How old are you</li>
             <li>Where are you from</li>
+            <li>Do you write codes</li>
+            <li>How are you</li>
         </ul>
         <div class="chatbox">
             <div class="header">
