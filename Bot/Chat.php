@@ -2,10 +2,12 @@
 include "Bot.php";
 $bot = new Bot;
 $questions = [
-    "What is your name" => "My name is " . $bot->getName(),
-    "What is your gender" => "I am a " . $bot->getGender(),
+    "What is your name" => "My name is" . $bot->getName(),
+    "What is your gender" => "I am a" . $bot->getGender(),
     "How old are you" => "I am 23 years old",
     "Where are you from" => "I am from Delta state",
+    "How are you doing" => "I am fine thank you",
+    "Do you write codes" => "Yes, i love writing codes",
 ];
 
 if (isset($_GET['msg'])) {
