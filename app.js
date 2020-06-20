@@ -20,7 +20,7 @@ const getMessage = (msg) => {
             // console.log(divCpu);
         }
     };
-  xhr.open("GET", "/bot/chat.php?msg=" + msg, true);
+  xhr.open("GET", "/Bot/Chat.php?msg=" + msg, true);
   xhr.send();
 };
 
