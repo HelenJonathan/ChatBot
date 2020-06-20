@@ -9,6 +9,14 @@
 
 <body>
     <div class="container">
+        <p>Sample Questions:</p>
+        <ul>
+            <li>Hello</li>
+            <li>What is your name</li>
+            <li>What is your gender</li>
+            <li>How old are you</li>
+            <li>Where are you from</li>
+        </ul>
         <div class="chatbox">
             <div class="header">
                 <h4>Chat with Alicia <span class="avail">Online </span></h4>

@@ -23,7 +23,7 @@
         public function ask($question, array $questionDictionary) {
             $question = trim($question);
             foreach ($questionDictionary as $questions => $value) {
-                if ($question == $questions) {
+                if (strtolower($question) == strtolower($questions)) {
                     return $value;
                 }
             }
